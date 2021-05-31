@@ -1,0 +1,851 @@
+{"intents":[
+    {
+          "tag": "greeting",
+          "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hey there","hello there"],
+          "responses": ["Hello How may I help You?", "Hi,How can I help You?", "Hi there,What Can I do for You Today?"],
+          "context_set":""
+      },
+
+      {
+          "tag": "goodbye",
+          "patterns": ["Bye", "See you later", "Goodbye"],
+          "responses": ["See you later", "Have a nice day", "Bye! Come back again"],
+          "context_set":""
+      },
+
+      {
+          "tag": "thanks",
+          "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+          "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"],
+          "context_set":""
+      },
+
+      {
+          "tag": "about",
+          "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+          "responses": ["I'm MMCOE's intelligent bot assistant, here to assist you!"],
+          "context_set":""
+      },
+
+      {
+          "tag": "name",
+          "patterns": ["what is your name", "what should I call you", "whats your name?"],
+          "responses": ["A bot has no name. But I have a purpose, and that is to help you. How can I help you?"],
+          "context_set":""
+      },
+      {
+          "tag":"complaint",
+          "patterns":["I have a complaint.","I want to raise an issue.", "I am facing an inconvenience.","I want to report a problem."],
+          "responses":["Please contact us and let us know your issue. We're more than happy to help you out! Ph.:(020) 25479811, 25479812, 7720097780, 7720097781, 7720097782 . Extn Nos.:202,204, 206"],
+          "context_set":""
+      },
+
+      {
+          "tag":"contact",
+          "patterns":["How do I contact you?","helpline numbers","What are your contact details?","How do I reach you?","WHat are your sources of cotact in case of need?"],
+          "responses":["Contact us on Ph.:(020) 25479811, 25479812, 7720097780, 7720097781, 7720097782 . Extn Nos.:202,204, 206 ,or mail us at mmcoe@mmcoe.edu.in, principal@mmcoe.edu.in . We're open Monday through Saturday from 10am to 5pm. "],
+          "context_set":""
+      },
+
+      {
+          "tag":"social connect",
+          "patterns":["Does the college have any social media connect?","Are there any other sources how we can get to know the college better?","Does the college have an active social media account?","How can we connect with the college socially?"],
+          "responses":["We operate on active handles on Instagram, Facebook, LinkedIn and Youtube. Please feel free to check us on https://instagram.com/mmcoepune?utm_medium=copy_link, https://mmcoe.edu.in/index.php, https://www.linkedin.com/school/mmcoe/, https://www.youtube.com/channel/UC4ZIkZoKmyoKDNypTSM-Eqw"],
+          "context_set":""
+      },
+
+      {
+          "tag":"working-hours",
+          "patterns":["When would the college be reachable for the public?","What are the working hours of the college?","When can we reach out to the college?","When can we visit the college?"],
+          "responses":["In the pandemic, according to protocols, we have restricted the visiting hours. At usual times, the college is functional from 10am to 5pm on workdays from Monday to Saturday. But during the pandemic, please free to call us on our helpline numbers!"],
+          "context_set":""
+      },
+
+      {
+          "tag":"location",
+          "patterns":["Where is the college exactly located?","What is the location of the college?","Where is the college situated?","How can we access the college?"],
+          "responses":["Address: Survey No. 18, Plot No. 5/3, Near Vandevi Temple, Karvenagar, Pune 411052. Click on the link to access the Google Map location https://goo.gl/maps/EQtjeZjJyP13BFS6A"],
+          "context_set":""
+      },
+
+      {
+          "tag":"why-choose-mmcoe",
+          "patterns":["Why should we choose MMCOE?","What are the speciality traits of MMCOE?","Why should we prefer this college over any other college?"],
+          "responses":["Student Centric System: Professional Skills develop ment through student centric activities and competitions. Industry Institute Interaction: Main objective is to establish and maintain relationship with corporate world through MoUs, center of excellence, sponsored projects, industrial visits and in-plant trainings for students and faculty members. Strong Corporate Relations Division (CRD) Cell: Objective of CRD is to train students in aptitude, soft skills & technical knowl edge through structured trainings."],
+          "context_set":""
+      },
+
+      {
+          "tag":"what-we-offer",
+          "patterns":["What courses does the college offer?","What are the choosable streams in this college?","What are the offered courses in this college?","What courses can I opt for?"],
+          "responses":["We offer Computer Engineering, Electronics and Telecommunication Engineering, Mechanical Engineering, Electrical Engineering, Information Technology Engineering, and Masters courses."],
+          "context_set":""
+      },
+
+    {
+      "tag":"admission-enquiry",
+      "patterns":["Which website  should I refer for admission process?"," Where should I apply for admission process?","For admission process which website should I visit?","Will you please give the link for the website for admission process?","How should I apply for admission process?"],
+      "responses":["For admission process refer https://fe2020.mahacet.org/StaticPages/HomePage"]
+
+  },
+  {
+      "tag":"admission-after-allotment",
+      "patterns":["What after CAP round 1 allotment?","What after CAP Round 1?","What is the admission Process After Allotment of the college?","Can you help me with the admission procedure after the allotment of the college?","What is admission Procedure after Allotment?","Could you please tell me the process for admission after Allotment?","What are the steps for taking admission in first year?"],
+      "responses":["Refer this video for complete procedure regarding Admission After Allotment :- https://www.youtube.com/watch?v=FhWNcONI53s"]
+
+  },
+  {
+      "tag":"admission_in_charge_FE",
+      "patterns":["Who is the admission in charge FE ?","Please provide the contact details of FE admission in charge","Fe admission in charge contact details?","Whom should we contact to know about FE admission."],
+      "responses":["To get answers to FAQs about general process of admission Contact respective incharge Click on the link given for the Contact Details for the Same FE Engineering:- https://www.mmcoe.edu.in/index.php/admissions/admission-enquiry-cell/first-year-engineering ","To know about respective Admission Incharge and get answers to other Admission Related Queries Contact to respective incharge :-Contact details are available on :-https://www.mmcoe.edu.in/index.php/admissions/admission-enquiry-cell/first-year-engineering"]
+
+  },
+  {
+      "tag":"admission_in_charge_DSE",
+      "patterns":["Who is the admission in charge DSE ?","Please provide the contact details of DSE admission in charge","DSE admission in charge contact details?","Whom should we contact to know about DsE admission."],
+      "responses":["To get answers to FAQs about general process of admission Contact respective incharge Click on the link given for the Contact Details for the Same DSE Engineering:-https://www.mmcoe.edu.in/index.php/admissions/admission-enquiry-cell/direct-second-year-engineering"]
+
+  },
+  {
+      "tag":"admission_in_charge_ME_MBA",
+      "patterns":["Who is the admission in charge MBA ?","Please provide the contact details of MBA admission in charge","MBA admission in charge contact details?","Whom should we contact to know about MBA admission."],
+      "responses":["To get answers to FAQs about general process of admission Contact respective incharge Click on the link given for the Contact Details for the Same FE Engineering:-https://www.mmcoe.edu.in/index.php/admissions/admission-enquiry-cell/me-mba","To know about respective Admission Incharge and get answers to other Admission Related Queries Contact to respective incharge :-Contact details are available on :-https://www.mmcoe.edu.in/index.php/admissions/admission-enquiry-cell/me-mba"]
+
+  },
+  {
+   "tag":"Computer-Intake",
+   "patterns":["what is the intake for computer department?","what is the intake for computer branch?","will you please let us know the intake for computer department","What is the total number of students in computer department?","what is total strength  of students enrolled for computer science branch?","how many seats are available for enrolling in computer branch?","How many seats are there for getting admission into computer branch?","what is the total number of seats for computer science branch?","How many students are allotted computer branch?","what is the intake for computer science department?"],
+   "responses":["Intake for computer engineering is 120 seats"]
+
+
+  },
+  {
+      "tag":"IT-Intake",
+      "patterns":["what is the intake for IT department?","what is the intake for IT branch?","will you please let us know the intake for IT department","What is the total number of students in IT department?","what is total strength  of students enrolled for IT science branch?","how many seats are available for enrolling in IT branch?","How many seats are there for getting admission into IT branch?","what is the total number of seats for IT science branch?","How many students are allotted IT branch?","what is the intake for IT science department?"],
+      "responses":["Intake for IT department is 60 seats"]
+
+
+     },
+     {
+      "tag":"Mechanical-Intake",
+      "patterns":["what is the intake for Mechanical department?","what is the intake for Mechanical branch?","will you please let us know the intake for Mechanical department","What is the total number of students in Mechanical department?","what is total strength  of students enrolled for Mechanical science branch?","how many seats are available for enrolling in Mechanical branch?","How many seats are there for getting admission into Mechanical branch?","what is the total number of seats for Mechanical science branch?","How many students are allotted Mechanical branch?","what is the intake for Mechanical science department?"],
+      "responses":["Intake for Mechanical department is 180 seats"]
+
+
+     },
+     {
+      "tag":"ENTC-Intake",
+      "patterns":["what is the intake for ENTC department?","what is the intake for ENTC branch?","will you please let us know the intake for ENTC department","What is the total number of students in ENTC department?","what is total strength  of students enrolled for ENTC science branch?","how many seats are available for enrolling in ENTC branch?","How many seats are there for getting admission into ENTC branch?","what is the total number of seats for ENTC science branch?","How many students are allotted ENTC branch?","what is the intake for ENTC science department?"],
+      "responses":["Intake for ENTC department is 120 seats"]
+
+
+     },
+     {
+      "tag":"Electrical-Intake",
+      "patterns":["what is the intake for Electrical department?","what is the intake for Electrical branch?","will you please let us know the intake for Electrical department","What is the total number of students in Electrical department?","what is total strength  of students enrolled for Electrical science branch?","how many seats are available for enrolling in Electrical branch?","How many seats are there for getting admission into Electrical branch?","what is the total number of seats for Electrical science branch?","How many students are allotted Electrical branch?","what is the intake for Electrical science department?"],
+      "responses":["Intake for Electrical department is 60 seats"]
+
+
+     },
+     {
+      "tag":"DSE-computer-Intake",
+      "patterns":["what is the intake for DSE-computer department?","what is the intake for DSE-computer branch?","will you please let us know the intake for DSE-computer department","What is the total number of students in DSE-computer department?","what is total strength  of students enrolled for DSE-computer science branch?","how many seats are available for enrolling in DSE-computer branch?","How many seats are there for getting admission into DSE-computer branch?","what is the total number of seats for DSE-computer science branch?","How many students are allotted DSE-computer branch?","what is the intake for DSE-computer science department?"],
+      "responses":["Intake for DSE computer  department is 12 seats"]
+
+
+     },
+     {
+      "tag":"DSE-IT-Intake",
+      "patterns":["what is the intake for DSE-IT department?","what is the intake for DSE-IT branch?","will you please let us know the intake for DSE-IT department","What is the total number of students in DSE-IT department?","what is total strength  of students enrolled for DSE-IT science branch?","how many seats are available for enrolling in DSE-IT branch?","How many seats are there for getting admission into DSE-IT branch?","what is the total number of seats for DSE-IT science branch?","How many students are allotted DSE-IT branch?","what is the intake for DSE-IT science department?"],
+      "responses":["Intake for DSE IT  department is 6 seats"]
+
+
+     },{
+      "tag":"DSE-Mechanical-Intake",
+      "patterns":["what is the intake for DSE-Mechanical department?","what is the intake for DSE-Mechanical branch?","will you please let us know the intake for DSE-Mechanical department","What is the total number of students in DSE-Mechanical department?","what is total strength  of students enrolled for DSE-Mechanical science branch?","how many seats are available for enrolling in DSE-Mechanical branch?","How many seats are there for getting admission into DSE-Mechanical branch?","what is the total number of seats for DSE-Mechanical science branch?","How many students are allotted DSE-Mechanical branch?","what is the intake for DSE-Mechanical science department?"],
+      "responses":["Intake for Mechanical Department is:- First Shift:12 seats second shift :- 6 seats"]
+
+
+     },
+     {
+      "tag":"DSE-ENTC-Intake",
+      "patterns":["what is the intake for DSE-ENTC department?","what is the intake for DSE-ENTC branch?","will you please let us know the intake for DSE-ENTC department","What is the total number of students in DSE-ENTC department?","what is total strength  of students enrolled for DSE-ENTC science branch?","how many seats are available for enrolling in DSE-ENTC branch?","How many seats are there for getting admission into DSE-ENTC branch?","what is the total number of seats for DSE-ENTC science branch?","How many students are allotted DSE-ENTC branch?","what is the intake for DSE-ENTC science department?"],
+      "responses":["Intake for DSE ENTC  department is 12 seats"]
+
+
+     },
+     {
+      "tag":"DSE-Electrical-Intake",
+      "patterns":["what is the intake for DSE-Electrical department?","what is the intake for DSE-Electrical branch?","will you please let us know the intake for DSE-Electrical department","What is the total number of students in DSE-Electrical department?","what is total strength  of students enrolled for DSE-Electrical science branch?","how many seats are available for enrolling in DSE-Electrical branch?","How many seats are there for getting admission into DSE-Electrical branch?","what is the total number of seats for DSE-Electrical science branch?","How many students are allotted DSE-Electrical branch?","what is the intake for DSE-Electrical science department?"],
+      "responses":["Intake for DSE IT  department is 6 seats"]
+
+
+     },
+     {
+      "tag":"ME-Intake",
+      "patterns":["what is the intake for DSE-ENTC department?","what is the intake for ME branch?","will you please let us know the intake for ME department","What is the total number of students in ME department?","what is total strength  of students enrolled for ME science branch?","how many seats are available for enrolling in ME branch?","How many seats are there for getting admission into ME branch?","what is the total number of seats for ME science branch?","How many students are allotted ME branch?","what is the intake for ME science department?"],
+      "responses":["Refer the following link to know about Intake of ME:- https://www.mmcoe.edu.in/index.php/admissions/admission-enquiry-cell/me-mba"]
+
+
+     },
+     {
+      "tag":"MBA-Intake",
+      "patterns":["what is the intake for DSE-ENTC department?","what is the intake for MBA branch?","will you please let us know the intake for MBA department","What is the total number of students in MBA department?","what is total strength  of students enrolled for MBA science branch?","how many seats are available for enrolling in MBA branch?","How many seats are there for getting admission into MBA branch?","what is the total number of seats for MBA science branch?","How many students are allotted MBA branch?","what is the intake for MBA science department?"],
+      "responses":["Refer the following link to know about Intake of MBA:- https://www.mmcoe.edu.in/index.php/admissions/admission-enquiry-cell/me-mba"]
+
+
+     },
+     {
+         "tag":"FE-Eligibility",
+         "patterns":["what is the eligibility criteria for taking admission to first year of engineering?","how much we need to score to get admission for engineering ?","what are minimum eligibility requirements for taking admission to engineering first year?","how many minimum percentage  are required in 12th boards examination for getting admission in college ?","what is the eligibility for engineering admission?","how many total percentage should I get in pcm to get admission into engineering college?","What are the minimum PCM marks for getting admission to engineering college?","please let me know the eligibility criteria for admission into engineering?","How many PCM marks are required for getting admission into FE?","How many marks are required to get admission to engineering?","Is PCM in 12th compulsory for admission to First Year engineering? What are the eligibility criteria?"],
+         "responses":["For Eligibility criteria refer :- https://www.mmcoe.edu.in/index.php/admissions/eligibility/eligibility-fy-engineering","Click on this link to know about eligibility criteria required for Engineering Admission https://www.mmcoe.edu.in/index.php/admissions/eligibility/eligibility-fy-engineering"]
+
+     },
+     {
+         "tag":"DSE-Eligibility",
+         "patterns":["what is the eligibility criteria for taking admission to direct second year of engineering?","what is the eligibility criteria for taking admission to direct second year of Computer  engineering?","what is the eligibility criteria for taking admission to direct second year of Electrical  engineering?","what is the eligibility criteria for taking admission to direct second year of Mechanical  engineering?","what is the eligibility criteria for taking admission to direct second year of  ENTC engineering?","what is the eligibility criteria for taking admission to direct second year of  IT engineering?","how much we need to score to get admission to direct second year of engineering ?","what are minimum eligibility requirements for taking admission to engineering direct second year?","will you please let me know the eligibility criterion for admission into direct second year of computer  engineering?","will you please let me know the eligibility criterion for admission into direct second year of Mechanical engineering?","will you please let me know the eligibility criterion for admission into direct second year of Electrical engineering?","will you please let me know the eligibility criterion for admission into direct second year of ENTC engineering?","will you please let me know the eligibility criterion for admission into direct second year of IT engineering?"],
+         "responses":["For Eligibility criteria refer :- https://www.mmcoe.edu.in/index.php/admissions/eligibility/dse-eligibility","Click on this link to know about eligibility criteria required for Direct Second Year of  Engineering Admission https://www.mmcoe.edu.in/index.php/admissions/eligibility/dse-eligibility"]
+
+     },
+     {
+         "tag":"ME-Eligibility",
+         "patterns":["what is the eligibility criteria for taking admission to ME?","will you please let me know the eligibility criterion for admission into ME?","what are minimum eligibility requirements for taking admission to ME?"],
+         "responses":["For Eligibility criteria refer :- https://www.mmcoe.edu.in/index.php/admissions/eligibility/eligibility-me","Click on this link to know about eligibility criteria required for ME Admission https://www.mmcoe.edu.in/index.php/admissions/eligibility/eligibility-me"]
+
+
+     },
+     {
+         "tag":"MBA-Eligibility",
+         "patterns":["what is the eligibility criteria for taking admission to MBA?","please let me know the eligibility criteria for admission into MBA?","what are minimum eligibility requirements for taking admission to MBA?"],
+         "responses":["For Eligibility criteria refer :- https://www.mmcoe.edu.in/index.php/admissions/eligibility/mba","Click on this link to know about eligibility criteria required for ME Admission https://www.mmcoe.edu.in/index.php/admissions/eligibility/mba"]
+
+     },
+     {
+         "tag":"Documents-FE",
+         "patterns":["What documents are required for admission into an engineering college after 12th?","What documents are required for engineering admission?","What documents do i need to present for admission to an engineering college in Maharashtra?","What parental documents are required at the time of admission in college?","what documents are required for engineering admission after 12th science?","What documents are required for first year admission?","Give the list of documents for first year admission?","What all documents are necessary for first year engineering admission?","What all documents to bring for admission process of engineering?","Which documents are required for computer engineering admission?","Which documents are required for IT engineering admission?","Which documents are required for Mechanical engineering admission?","Which documents are required for Electrical engineering admission?","Which documents are required for ENTC engineering admission?","Which all documents are needed for first year engineering admission?","Do we need original copies of all documents for engineering admission?","How many Photocopies of all documents are needed for engineering admission?","What are the documents required for admission in an Engineering College?"],
+                    "responses":["DO Checkout this link for the list of documents needed for FE Admission Process https://www.mmcoe.edu.in/index.php/admissions/documents-req-admission/documents-req-fy-admission","List of Documents Needed For FE Admission Purpose are available on: https://www.mmcoe.edu.in/index.php/admissions/documents-req-admission/documents-req-fy-admission","Click on this link to checkout the list of documents needed for admission process. https://www.mmcoe.edu.in/index.php/admissions/documents-req-admission/documents-req-fy-admission","For all the information regarding documents head over to https://www.mmcoe.edu.in/index.php/admissions/documents-req-admission/documents-req-fy-admission this page and get the list of documents needed for FE admission Process."]
+     },
+      {
+          "tag":"fee-payment-process",
+          "patterns":["what is the process of fee payment?","How to pay fees?","what are the steps to pay fees ?","can you help me with fees payment?","How can we pay fees?","what are the steps for paying fees for current academic year?","Information about paying fees?"],
+          "responses":["For all the information regarding Fees payment click on:- https://www.mmcoe.edu.in/index.php/admissions/fee-payment-process "]
+
+      },
+      {
+          "tag":"Fe-FEES",
+          "patterns":["what are the  total fees for FE?","what are the total fees for FE Computer?","what are the total fees for FE IT?","what are the total fees for FE Mechanical?","what are the total fees for FE Electrical?","what are the total fees for FE ENTC?","what is fee structure for First year?","Total fees for first year of Engineering?","what are total fees for first year admission?","What are the fees per year for FE? "],
+          "responses":["Refer this Pdf for complete details of FEE Structure of first year engineering. https://www.mmcoe.edu.in/images/Office/FeePaymentProcess/FE_DSE_MBA_I_ME_I_FEES_DD_AMT_2020-21.pdf"]
+
+      },
+      {
+          "tag":"DSE-FEES",
+          "patterns":["what is total fees for DSE?","what are the total fees for DSE Computer?","what are the total fees for DSE IT?","what are the total fees for DSE Mechanical?","what are the total fees for DSE Electrical?","what are the total fees for DSE ENTC?","what is fee structure for direct second year?","total fees for direct second year of Engineering?","what are total fees for direct second year admission?","What are the fees per year for DSE?"],
+          "responses":["Refer this Pdf for complete details of FEE Structure of direct second year admissions. https://www.mmcoe.edu.in/images/Office/FeePaymentProcess/DSE_Fees_Structure_20-21.pdf "]
+
+      },
+      {
+          "tag":"MBA-FEES",
+          "patterns":["what is total fees for MBA?","what is fee structure for MBA?","total fees for MBA?","What are the fees per year for MBA? "],
+          "responses":["Refer this Pdf for complete details of FEE Structure of MBA. https://www.mmcoe.edu.in/images/Office/FeePaymentProcess/MBA_Fes_Structure_20-21.pdf"]
+
+      },
+      {
+          "tag":"ME-FEES",
+          "patterns":["what is total fees for ME?","what is fee structure for ME?","total fees for ME?","what are total fees for ME?","What are the fees per year for ME? "],
+          "responses":["Refer this Pdf for complete details of FEE Structure of ME. https://www.mmcoe.edu.in/images/Office/FeePaymentProcess/ME_Fees_Structure_20-21.pdf "]
+
+      },
+      {
+          "tag":"scholarships",
+          "patterns":["What is the income limit for EBC scholarship? Who can avail it? ","I am from the OBC category but I do not have the related documents. Can I apply for EBC? "],
+          "responses":["Information Regarding Scholarship is available on https://www.mmcoe.edu.in/index.php/admissions/scholarships"]
+
+      },
+      {
+          "tag":"Faculty-College-Computer",
+          "patterns":["Tell me about the faculty of MMCOE","List of faculty in MMCOE","Names of the Faculty members present at MMCOE","Faculty of MMCOE","PhD faculty members of MMCOE","Teachers of MMCOE","Faculty of Computer Engennering","Faculty of comp","Faculty of Computer Branch","Computer Branch Faculty","Names of faculty members at computer branch"],
+          "responses":["Refer to this page to get details about the faculty at MMCOE:-https://www.mmcoe.edu.in/index.php/about-us/about-marathwada-mitramandal","Refer to this Hyperlink to know more about Computer Branch Faculty at MMCOE:-https://www.mmcoe.edu.in/index.php/faculty/phd-faculty#computer-engineering"],
+          "context_set":""
+    },
+    {
+          "tag":"Faculty-College-IT",
+          "patterns":["Faculty of IT Engineering","Faculty of IT","Faculty of IT Branch","Information Technology Branch Faculty","Names of faculty members at IT branch"],
+          "responses":["Refer to this page to get details about the faculty at MMCOE:-https://www.mmcoe.edu.in/index.php/about-us/about-marathwada-mitramandal","Refer to this Hyperlink to know more about IT/Information Technology Branch Faculty at MMCOE:-https://www.mmcoe.edu.in/index.php/faculty/phd-faculty#information-technology"],
+          "context_set":""
+    },
+    {
+          "tag":"Faculty-College-Mechanical",
+          "patterns":["Faculty of Mechanical Engineering","Faculty of Mech","Faculty of  Mechanical Branch","Mechanical Engineering Branch Faculty","Names of faculty members at Mechanical branch"],
+          "responses":["Refer to this page to get details about the faculty at MMCOE:-https://www.mmcoe.edu.in/index.php/about-us/about-marathwada-mitramandal","Refer to this Hyperlink to know more about Mechanical Branch Faculty at MMCOE:-https://www.mmcoe.edu.in/index.php/faculty/phd-faculty#mechanical"],
+          "context_set":""
+    },
+    {
+          "tag":"Faculty-College-E&TC",
+          "patterns":["Faculty of E&TC Engineering","Faculty of E&TC","Faculty of  E&TC Branch","E&TC Engineering Branch Faculty","Names of faculty members at E&TC branch"],
+          "responses":["Refer to this page to get details about the faculty at MMCOE:-https://www.mmcoe.edu.in/index.php/about-us/about-marathwada-mitramandal","Refer to this Hyperlink to know more about E&TC Branch Faculty at MMCOE:-https://www.mmcoe.edu.in/index.php/faculty/phd-faculty#e-tc-engineering"],
+          "context_set":""
+    },
+    {
+          "tag":"Faculty-College-Electrical",
+          "patterns":["Faculty of Electrical Engineering","Faculty of Electrical","Faculty of  Electrical Branch","Electrical Engineering Branch Faculty","Names of faculty members at Electrical branch"],
+          "responses":["Refer to this page to get details about the faculty at MMCOE:-https://www.mmcoe.edu.in/index.php/about-us/about-marathwada-mitramandal","Refer to this Hyperlink to know more about Electrical Branch Faculty at MMCOE:-https://www.mmcoe.edu.in/index.php/faculty/phd-faculty#electrical-engineering"],
+          "context_set":""
+    },
+    {
+          "tag":"Faculty-College-MBA",
+          "patterns":["Faculty of MBA Engineering","Faculty of MBA","Faculty of  MBA Branch","MBA Engineering Branch Faculty","Names of faculty members at MBA branch"],
+          "responses":["Refer to this page to get details about the faculty at MMCOE:-https://www.mmcoe.edu.in/index.php/about-us/about-marathwada-mitramandal","Refer to this Hyperlink to know more about MBA Branch Faculty at MMCOE:-https://www.mmcoe.edu.in/index.php/faculty/phd-faculty#mba"],
+          "context_set":""
+    },
+    {
+          "tag":"Faculty-College-Engineering-Sciences",
+          "patterns":["Faculty of Engineering-Sciences","Faculty of Engineering-Sciences","Faculty of  Engineering-Sciences Branch","Engineering-Sciences  Branch Faculty","Names of faculty members at Engineering-Sciences branch","Faculty of First-Year","Faculty of FE","FE Faculty","FY Faculty","First Year faculty","fe faculty","fy faculty"],
+          "responses":["Refer to this page to get details about the faculty at MMCOE:-https://www.mmcoe.edu.in/index.php/about-us/about-marathwada-mitramandal","Refer to this Hyperlink to know more about Engineering-Sciences/FE/FY/FIRST-YEAR Branch Faculty at MMCOE:-https://www.mmcoe.edu.in/index.php/faculty/phd-faculty#engineering-sciences"],
+          "context_set":""
+    },
+    {
+          "tag":"Research-Projects",
+          "patterns":["What Research projects are ongoing at MMCOE","What Research Projects is the Faculty perusing?","Research paper","Projects taken by faculty","What are the Projects taken by faculty","List of Reserach projects","Research Projects"],
+          "responses":["Refer to this link for all the Research Projects at MMCOE:-https://www.mmcoe.edu.in/index.php/faculty/research-projects#computer-engineering"],
+          "context_set":""
+
+    },
+    {
+          "tag":"Student-projects",
+          "patterns":["What Student projects are ongoing at MMCOE","What Student Projects is the Faculty perusing?","Student paper","Projects taken by faculty","What are the Projects taken by faculty","List of Student projects","Student Projects"],
+          "responses":["Refer to this link for all the Student Projects at MMCOE:-https://www.mmcoe.edu.in/index.php/faculty/student-projects"],
+          "context_set":""
+    },
+    {
+          "tag":"About-MMCOE",
+          "patterns":["Can you tell me about MMCOE","History of MMCOE","Information about MMCOE","What is MMCOE","Breif info about MMCOE","About MMCOE","Marathwada Mitra mandal","Tell me about Marathwada","What is the full form of MMCOE","Founder of MMCOE","Founder of mmcoe","Who was the first founder of mmcoe?","Founder of MMCOE"],
+          "responses":["For information about MMCOE please refer this hyperlink:https://www.mmcoe.edu.in/index.php/about-us/about-mmcoe"],
+          "context_set":""
+    },
+    {
+          "tag":"About-Marathwada Mitramandal",
+          "patterns":["Who is the founder of Marathwada Mitramandal","Marathwada Mitramandal founder","Who was the founder of Marathwada Mitramandal","About Marathwada Mitramandal","MISSION OF THE TRUST","Existing institutions managed by Marathwada Mitra Mandal, Pune are","Different branches of Marathwada Mitramandal","Information about marathwada mitramandal","What is marathwada mitramandal","What is Marathwada Mitramandal?"],
+          "responses":["For all the information about Marathwada Mitrmanadl please follow this hyperlink:https://www.mmcoe.edu.in/index.php/about-us/about-marathwada-mitramandal"],
+          "context_set":""
+    },
+    {
+          "tag":"About In general",
+          "patterns":["What is MMCOE vision","What is MMCOE mission","Vision and mission","mission","vision","What is Marathwada Mitra Manadal's Mission,Vision","What is Principals Message?","Famous saying at MMCOE"],
+          "responses":["Please refer to this hyperlink for Vision and mission:-https://www.mmcoe.edu.in/index.php/about-us/vision-and-mission"],
+          "context_set":""
+    },
+    {
+          "tag":"Principal's message",
+          "patterns":["What is Principal's message?","Information about Principal of MMCOE","Who is the Principal of MMCOE?","Principal of MMCOE","Dr SM.Deshpande is the principal of mmcoe?","What does the Principal say?","Tell me about The principal of mmcoe","Principal?"],
+          "responses":["Please refer to this hyperlink for Information about Principal Dr SM Deshpande :-https://www.mmcoe.edu.in/index.php/about-us/principal-s-message "],
+          "context_set":""
+    },
+    {
+          "tag":"Affiliations and Recognitions",
+          "patterns":["What are the affiliations of MMCOE?","Recognistions of MMCOE","Is MMCOE affiliated to SPPU?","Is mmcoe sppu affiliated?","Is mmcoe under sppu?","MMCOE'S affiliation?"],
+          "responses":["For information about Affiliations and Recognistion please use this hyperlink:-https://www.mmcoe.edu.in/index.php/about-us/affiliations-recognitions"],
+          "context_set":""
+    },
+    {
+          "tag":"POLICY/Governance",
+          "patterns":["What are the different policies at MMCOE?","policies at mmcoe?","What is the academic policy of mmcoe?","What is the internship policy of mmcoe","HR policy","What is the recruitment policy at mmcoe?","Recruitment Policy"],
+          "responses":["To know more about the policies and the governance of MMCOE please visit:-https://www.mmcoe.edu.in/index.php/about-us/governance"],
+          "context_set":""
+    },
+    {
+          "tag":"Organization",
+          "patterns":["Organization of MMCOE","Who is the head of MMCOE?","What is the hierarchy or the faculty?","HODS of mmcoe"],
+          "responses":["https://www.mmcoe.edu.in/index.php/about-us/organogram"],
+          "context_set":""
+    },
+    {
+          "tag":"Achievements",
+          "patterns":["What are the achivments at mmcoe?","Faculty achivments","Is the faculty good at mmcoe?","Any achivments by the faculty?","What are the achivments at MMCOE?"],
+          "responses":["For all the achivments of the faculty at MMCOE please visit this page:-https://www.mmcoe.edu.in/index.php/about-us/achievements/faculty"],
+          "context_set":""
+    },
+    {
+          "tag":"Deans",
+          "patterns":["Deans at mmcoe","What are the different deans at mmcoe?","who are the deans of mmcoe?","Which Deans are present at MMCOE?"],
+          "responses":["For information about Deans at MMCOE please visit the page:-https://www.mmcoe.edu.in/index.php/about-us/organogram#"],
+          "context_set":""
+    },
+    {
+          "tag":"Dean Student Affairs",
+          "patterns":["Information about the dean at student affairs","Who is the dean at student affairs","Student Affairs","Placement and training faculty","Hostel management","Mess and canteen","Sports and Gym","Technical events","Extra-carricular Activity","Anti-Raging committee","alumini of mmcoe","Alumini of MMCOE"],
+          "responses":["For Student affairs please visit:-https://www.mmcoe.edu.in/index.php/about-us/deans/dean-student-affairs"],
+          "context_set":""
+    },
+    {
+          "tag":"Dean Administration",
+          "patterns":["who is the dean of administration","Library committee of MMCOE","Permanent affiliation of MMCOE","Staff appraisal of MMCOE","PRO OF MMCOE","Administration staff of mmcoe","Administration of MMCOE","Whom to contact for Administration in MMCOE","Administration for mmcoe","Admimnistration related quarries","Grievance redresasal cell","Whom to contact for redressal?","Internet related complaints","SC/ST commitee"],
+          "responses":["For any administration doubts the list of the faculty members and known personnel is available,Please visit this page:-https://www.mmcoe.edu.in/index.php/about-us/deans/dean-administration"],
+          "context_set":""
+    },
+    {
+          "tag":"Deans-Academic",
+          "patterns":["Academic Monitoring committee","Time table committee","University Examination","Institution Examination","Result analysis","ISO"," INSTITUTION MIS SOFTWARE","GOOGLE APPS / ICT","Virtual Lab","University Examination doubts","Complaints related to University exams","Point of contact for Grievances related to University exams"],
+          "responses":["For Academics related quarries or any doubts,need to contact the committee responsible,Please refer to this page:-https://www.mmcoe.edu.in/index.php/about-us/deans/dean-academics "],
+          "context_set":""
+    },
+    {
+          "tag":"Deans- R&D",
+          "patterns":["N.B.A cell","R & D and IPR CELL"," ENTREPRENEURSHIP DEVELOPMENT (ED) & INCUBATION CELL","INDUSTRY INSTITUTION INTERACTION","SPONSORED RESEARCH PROJECTS","PROFESSIONAL BODIES MEMBERSHIP"],
+          "responses":["For R & D related problems/questions/quarries please contact the valid POC by referring to this page:-https://www.mmcoe.edu.in/index.php/about-us/deans/dean-r-d"],
+          "context_set":""
+    },
+    {
+          "tag":"Video of MM group",
+          "patterns":["Marathwada mitra mandal group info","Institutes of Marathwada Mitra Mandal","Institutes of MM","Information about Marathwada Mitra Mandal"],
+          "responses":["here is a video clip for the Information related to Marathwada mitra mandal gorup:-https://www.youtube.com/watch?v=TTyb8GneGzA"],
+          "context_set":""
+    },
+    {
+          "tag":"Placement",
+          "patterns":["How is the placement in mmcoe?","Are there any good placements for Students in MMCOE?","The Placement Record in mmcoe","Are there international placements in mmcoe?","International internships at mmcoe","International placements at mmcoe","Highest package for international placement at mmcoe","Highest package at mmcoe","Placement drive at mmcoe","Job  at MMCOE"],
+          "responses":["For details related to Placement in MMCOE please refer to this page:-https://www.mmcoe.edu.in/index.php/placement-cell/placements-support"],
+          "context_set":""
+    },
+    {
+          "tag":"Placement Counseling",
+          "patterns":["Placement counselor at mmcoe","Placement counselor at MMCOE","Who is the placement Counselor at MMCOE?","Placement Counseling"],
+          "responses":["For placement Related questions please contact MRS.DHANSHREE GHARE.Refer to this page for placement counseling:-https://www.mmcoe.edu.in/index.php/placement-cell/placements-support/counseling"],
+          "context_set":""
+    },
+    {
+          "tag":"Placement-Training",
+          "patterns":["Is placement training available at mmcoe?","Placement Training at MMCOE","Placement training activities","are there any PLacement Traaaining Activities at MMCOE","Induction programme","Aptitude Training","Soft skill training","Higher education support","Training for placement at mmcoe","Training for Placement at MMCOE"],
+          "responses":["For any Placement-Training related questions or doubts please refer to this page:-https://www.mmcoe.edu.in/index.php/placement-cell/placements-support/training"],
+          "context_set":""
+    },
+    {
+          "tag":"TPO/KEY Recruiters",
+          "patterns":["Which companies are recruiters for MMCOE students","which companies are present for Campus Recruitment at MMCOE?","Main companies at Recruitment drive","Prominent recruiters for MMCOE","Which International Companies are present for the Recruitment process at MMCOE?","List of companies at Recruitment drive","Well known companies that hire MMCOE students","Which companies are prent for Computer branch for recruitment?","Which companies are prent for IT branch for recruitment?","Which companies are prent for Mechanical branch for recruitment?","Which companies are prent for E&TC branch for recruitment?","Which companies are prent for Electrical branch for recruitment?","Which companies are prent for MBA branch for recruitment?"],
+          "responses":["For the TPO please refer to this page:-https://www.mmcoe.edu.in/index.php/placement-cell/placements-support/tpo for the Key Recruiters at MMCOE please refer to this page:-https://www.mmcoe.edu.in/index.php/placement-cell/key-recruiters"],
+          "context_set":""
+    },
+    {"tag": "Departments",
+          "patterns": ["Departments?", "Give me list of Departments?", "Available Departments?", "Which Departments does MMCOE have?", "Which Departments do you have?", "Give me Department related Information.", "Tell me, which Departments MMCOE has."],
+          "responses": ["Computer, IT, Electrical, E&TC, Mechanical, Engineering Sciences, MBA"],
+          "context_set": ""
+         },
+         {"tag": "Available departments",
+          "patterns": [ "Do you have Computer Department?", "Do you have IT Department?", "Do you have Electrical Department?", "Do you have E&TC Department?", "Do you have Mechanical Department?", "Does MMCOE have Computer Department?", "Does MMCOE have IT Department?", "Does MMCOE have E&TC Department?", "Does MMCOE have Electrical Department?", "Does MMCOE have Mechanical Department?"],
+          "responses": ["Yes, we have above mentioned department."],
+          "context_set": ""
+         },
+         {"tag": "Unavailable departments",
+          "patterns": ["Do you have Civil Department?", "Do you have Production Department?"],
+          "responses": ["Sorry, but we don't have the above mentioned departments."],
+          "context_set": ""
+         },
+         {"tag": "Computer department-cutoff",
+          "patterns": ["What is the cutoff for Computer department?", "Cutoff list for Computer Engineering?", "Computer Engineering cutoff?", "What is the CET score required for Computer Engineering?","Required Rank for Computer Engineering?", "What is the required Rank for getting admission for Computer Engineering?", "For getting admission for computer engineering what is the CET cutoff?", "For getting admission for computer engineering what is the JEE cutoff?","For getting admission for Computer Engineering, what is the minimum CET Score required?", "For getting admission for Computer Engineering, what is the minimum JEE Score required?", "For getting admission for Computer Engineering, what is the minimum Rank required?", "What is the cutoff for Computer department OPEN castee?", "What is the cutoff for Computer department SC caste?", "What is the cutoff for Computer department VJ caste?", "What is the cutoff for Computer department NT1 caste?", "What is the cutoff for Computer department NT2 caste?", "What is the cutoff for Computer department NT3 caste?", "What is the cutoff for Computer department OBC caste?", "What is the cutoff for Computer department AI caste?"],
+          "responses": ["Refer the link below for cutoffs: https://www.mmcoe.edu.in/index.php/admissions/cut-offs/first-year-engineering"],
+          "context_set": ""
+         },
+         {"tag": "IT Department-cutoff",
+          "patterns": ["What is the cutoff for IT department?", "Cutoff list for IT Engineering?", "IT Engineering cutoff?", "What is the CET score required for IT Engineering?","Required Rank for IT Engineering?", "What is the required Rank for getting admission for IT Engineering?", "For getting admission for IT engineering what is the CET cutoff?", "For getting admission for IT engineering what is the JEE cutoff?", "For getting admission for IT engineering, what is the minimum CET Score required", "For getting admission for IT Engineering, what is the minimum JEE Score required", "For getting admission for IT engineering, what is the minimum Rank required?","What is the cutoff for IT department OPEN caste?", "What is the cutoff for IT department SC caste?", "What is the cutoff for IT department VJ caste?", "What is the cutoff for IT department NT1 caste?", "What is the cutoff for IT department NT2 caste?", "What is the cutoff for IT department NT3 caste?", "What is the cutoff for IT department OBC caste?", "What is the cutoff for IT department AI caste?"],
+          "responses": ["Refer the link below for cutoffs: https://www.mmcoe.edu.in/index.php/admissions/cut-offs/first-year-engineering"],
+          "context_set": ""
+         },
+         {"tag": "Electrical Department-cutoff",
+          "patterns": ["What is the cutoff for Electrical department?", "Cutoff list for Electrical Engineering?", "Electrical Engineering cutoff?", "What is the CET score required for Electrical Engineering?","Required Rank for Electrical Engineering?", "What is the required Rank for getting admission for Electrical Engineering?", "For getting admission for Electrical engineering what is the CET cutoff?", "For getting admission for Electrical engineering what is the JEE cutoff?","For getting admission for Electrical Engineering, what is the minimum CET Score required?", "For getting admission for Electrical Engineering, what is the minimum JEE Score required?", "For getting admission for Electrical Engineering, what is the minimum Rank required?", "What is the cutoff for Electrical department OPEN caste?", "What is the cutoff for Electrical department SC caste?", "What is the cutoff for Electrical department VJ caste?", "What is the cutoff for Electrical department NT1 caste?", "What is the cutoff for Electrical department NT2 caste?", "What is the cutoff for Electrical department NT3 caste?", "What is the cutoff for Electrical department OBC caste?", "What is the cutoff for Electrical department AI caste?"],
+          "responses": ["Refer the link below for cutoffs: https://www.mmcoe.edu.in/index.php/admissions/cut-offs/first-year-engineering"],
+          "context_set": ""
+         },
+         {"tag": "E&TC Department-cutoff",
+          "patterns": ["What is the cutoff for E&TC department?", "Cutoff list for E&TC Engineering?", "E&TC Engineering cutoff?", "What is the CET score required for E&TC Engineering?","Required Rank for E&TC Engineering?", "What is the required Rank for getting admission for E&TC Engineering?", "For getting admission for E&TC engineering what is the CET cutoff?", "For getting admission for E&TC engineering what is the JEE cutoff?","For getting admission for E&TC Engineering, what is the minimum CET Score required?", "For getting admission for E&TC Engineering, what is the minimum JEE Score required?", "For getting admission for E&TC Engineering, what is the minimum Rank required?", "What is the cutoff for E&TC department OPEN caste?", "What is the cutoff for E&TC department SC caste?", "What is the cutoff for E&TC department VJ caste?", "What is the cutoff for E&TC department NT1 caste?", "What is the cutoff for E&TC department NT2 caste?", "What is the cutoff for E&TC department NT3 caste?", "What is the cutoff for E&TC department OBC caste?", "What is the cutoff for E&TC department AI caste?"],
+          "responses": ["Refer the link below for cutoffs: https://www.mmcoe.edu.in/index.php/admissions/cut-offs/first-year-engineering"],
+          "context_set": ""
+         },
+         {"tag": "Mechanical Department-cutoff",
+          "patterns": ["What is the cutoff for Mechanical department?", "Cutoff list for Mechanical Engineering?", "Mechanical Engineering cutoff?", "What is the CET score required for Mechanical Engineering?","Required Rank for Mechanical Engineering?", "What is the required Rank for getting admission for Mechanical Engineering?", "For getting admission for Mechanical engineering what is the CET cutoff?", "For getting admission for Mechanical engineering what is the JEE cutoff?","For getting admission for Mechanical Engineering, what is the minimum CET Score required?", "For getting admission for Mechanical Engineering, what is the minimum JEE Score required?", "For getting admission for Mechanical Engineering, what is the minimum Rank required?", "What is the cutoff for Mechanical department OPEN caste?", "What is the cutoff for Mechanical department SC caste?", "What is the cutoff for Mechanical department VJ caste?", "What is the cutoff for Mechanical department NT1 caste?", "What is the cutoff for Mechanical department NT2 caste?", "What is the cutoff for Mechanical department NT3 caste?", "What is the cutoff for Mechanical department OBC caste?", "What is the cutoff for Mechanical department AI caste?"],
+          "responses": ["Refer the link below for cutoffs: https://www.mmcoe.edu.in/index.php/admissions/cut-offs/first-year-engineering"],
+          "context_set": ""
+         },
+         {"tag": "DSE Computer-cutoff",
+          "patterns": ["What is the cutoff for Diploma Students?","What is the cutoff for DSE Students?", "What is the cutoff for Diploma Students to get admission for Computer Engineering?","What is the cutoff for DSE Students for getting admission for Computer Engineering?","What is the cutoff for Computer department?","What is the cutoff for getting admission for Computer department?", "What is the cutoff for Computer department OPEN caste?", "What is the cutoff for Computer department SC caste?", "What is the cutoff for Computer department VJ caste?", "What is the cutoff for Computer department NT1 caste?", "What is the cutoff for Computer department NT2 caste?", "What is the cutoff for Computer department NT3 caste?", "What is the cutoff for Computer department OBC caste?", "What is the cutoff for Computer department AI caste?"],
+          "responses": ["Yes!"],
+          "context_set": ""
+         },
+         {"tag": "DSE IT-cutoff",
+          "patterns": ["What is the cutoff for Diploma Students?","What is the cutoff for DSE Students?", "What is the cutoff for Diploma Students for getting admission for IT Engineering?","What is the cutoff for DSE Students for getting admission for IT Engineering?","What is the cutoff for DSE IT department?", "What is the cutoff for getting admission for IT department?", "What is the cutoff for DSE IT department OPEN caste?", "What is the cutoff for DSE IT department SC caste?", "What is the cutoff for DSE IT department VJ caste?", "What is the cutoff for DSE IT department NT1 caste?", "What is the cutoff for DSE IT department NT2 caste?", "What is the cutoff for DSE IT department NT3 caste?", "What is the cutoff for DSE IT department OBC caste?", "What is the cutoff for DSE IT department AI caste?"],
+          "responses": ["Yes!"],
+          "context_set": ""
+         },
+         {"tag": "DSE Electrical-cutoff",
+          "patterns": ["What is the cutoff for Diploma Students?","What is the cutoff for DSE Students?", "What is the cutoff for Diploma Students for getting admission for Electrical Engineering?","What is the cutoff for DSE Students?","What is the cutoff for DSE Electrical department?", "What is the cutoff for getting admission in Electrical department?", "What is the cutoff for DSE Electrical department OPEN caste?", "What is the cutoff for DSE Electrical department SC caste?", "What is the cutoff for DSE Electrical department VJ caste?", "What is the cutoff for DSE Electrical department NT1 caste?", "What is the cutoff for DSE Electrical department NT2 caste?", "What is the cutoff for DSE Electrical department NT3 caste?", "What is the cutoff for DSE Electrical department OBC caste?", "What is the cutoff for DSE Electrical department AI caste?"],
+          "responses": ["Yes!"],
+          "context_set": ""
+         },
+         {"tag": "DSE E&TC-cutoff",
+          "patterns": ["What is the cutoff for Diploma Students?","What is the cutoff for DSE Students?", "What is the cutoff for Diploma Students for getting admission for E&TC Engineering?","What is the cutoff for DSE Students for getting admission for Electrical Engineering?","What is the cutoff for DSE E&TC department?", "What is the cutoff for getting admission to the Electrical department?", "What is the cutoff for DSE E&TC department OPEN caste?", "What is the cutoff for DSE E&TC department SC caste?", "What is the cutoff for DSE E&TC department VJ caste?", "What is the cutoff for DSE E&TC department NT1 caste?", "What is the cutoff for DSE E&TC department NT2 caste?", "What is the cutoff for DSE E&TC department NT3 caste?", "What is the cutoff for DSE E&TC department OBC caste?", "What is the cutoff for DSE E&TC department AI caste?"],
+          "responses": ["Refer the link below for cutoffs: https://www.mmcoe.edu.in/images/DSE_Cut_Off_19_20.pdf"],
+          "context_set": ""
+         },
+         {"tag": "DSE Mechanical-cutoff",
+          "patterns": ["What is the cutoff for Diploma Students?","What is the cutoff for DSE Students?", "What is the cutoff for Diploma Students for getting admission for Mechanical Engineering?","What is the cutoff for DSE Students for getting admission for Mechanical Engineering?","What is the cutoff for DSE Mechanical department?", "What is the cutoff for getting admission for Mechanical department?", "What is the cutoff for DSE Mechanical department OPEN caste?", "What is the cutoff for DSE Mechanical department SC caste?", "What is the cutoff for DSE Mechanical department VJ caste?", "What is the cutoff for DSE Mechanical department NT1 caste?", "What is the cutoff for DSE Mechanical department NT2 caste?", "What is the cutoff for DSE Mechanical department NT3 caste?", "What is the cutoff for DSE Mechanical department OBC caste?", "What is the cutoff for DSE Mechanical department AI caste?"],
+          "responses": ["Refer the link below for cutoffs: https://www.mmcoe.edu.in/images/DSE_Cut_Off_19_20.pdf"],
+          "context_set": ""
+         },
+         {"tag": "ME-cutoff",
+          "patterns": ["What is the cutoff for ME Students?","What is the cutoff for ME students Computer Branch?", "What is the cutoff for getting admission for ME Engineering?", "Tell me cutoff for ME?", "What is the minimum score required for admission for ME?", "What is the minimum Rank required for ME"],
+          "responses": ["Refer the link below for cutoffs: https://www.mmcoe.edu.in/images/ME_Cut_offs.pdf"],
+          "context_set": ""
+          },
+          {"tag": "Duration-teaching",
+                "patterns": ["Duration of Academic Year teaching?", "What is the duration of Academic Year teaching?", "Tell me the duration of Academic Year teaching?", "Duration of Academic Year teaching Sem I?", "Duration of Academic Year teaching Sem II?", "Academic Planner?"],
+                "responses": ["Refer the link above for Academic teaching related information pdfs: https://www.mmcoe.edu.in/index.php/academics/academic-planner"],
+                "context_set": ""
+           },
+           {"tag": "Way-teaching",
+                "patterns": ["What is the way of teaching at MMCOE?", "Teaching Pattern at MMCOE?", "Academic Strengths?", "Preamble of Academics at MMCOE?"],
+                "responses": ["Refer the above link for complete Academics Preamble and related information: https://www.mmcoe.edu.in/index.php/academics/preamble-of-academics-at-mmcoe"],
+                "context_set": ""
+          },
+         {"tag": "Exams",
+                "patterns": ["When are the Annual Exams conducted?", "Tentative dates of Sem I FE exams?", "Tentative dates of Sem II FE exams?", "Tentative dates of Sem I SE exams?", "Tentative dates of Sem II SE exams?", "Tentative dates of Sem I TE exams?", "Tentative dates of Sem II TE exams?", "Tentative dates of Sem I BE exams?", "Tentative dates of Sem I BE exams?", "Exam Dates?", "Exam dates First Year Engineering?", "Exam dates Second Year Engineering?", "Exam dates Third Year Engineering?", "Exam dates Fourth Year Engineering?", "Tell me the First Year Exam Dates", "Tell me the Second Year Exam Dates", "Tell me the Third Year Exam Dates", "Tell me the Final Year Exam Dates", "tell me the Fourth Year Exam Dates"],
+                "responses": ["For SPPU exam dates, you can refer the link: http://exam.unipune.ac.in/"],
+                "context_set": ""
+           },
+           {"tag": "Assessment",
+                "patterns": ["How does internal assessment take place?", "Way of Internal Assessment?", "Tell me about Internal Assessment?", "Number of University Exams per year?", "Which exams are exams conducted by SPPU?"],
+                "responses": ["Unit tests, Practice tests, Prelim Exams and Orals are conducted every semester.Marks scored in these exams and practice tests are considered for Internal Assessment and Term Work.", "4 Exams per year. Namely: 1.In semester Exam SPPU Sem I, 2.End semester Exam SPPU Sem I, 3.In semester Exam SPPU Sem I, 4.End semester Exam SPPU Sem I. Same format continues from FE to BE. Refer the link below for more Exam related queries: http://exam.unipune.ac.in/"],
+                "context_set": ""
+           },
+           {"tag": "Results",
+                "patterns": ["Guide me to check my Exam Result?","Guide me to check my Exam Score?", "Give me Link for checking my SPPU Result", "How are College Exam results declared?", "Where can I find my Exam Result?", "Where can I get my Exam Result?", "Show me my exam score", "Link for Exam Result?", "Tell me my Exam Score?", "Internal Exam Results?", "SPPU Exam Results?"],
+                "responses": ["Results for internal Exams will be declared by the particular subject faculties.", "Check student section in the given link below for SPPU results: http://exam.unipune.ac.in/"],
+                "context_set": ""
+           },
+           {
+                "tag":"extra-curricular activities",
+                "patterns":["Why are extra-curricular activities conducted?","What is the aim of conducting extra-curricular activities", "What are the objectives of extra-curricular activities?", "What extra-curricular activities are carried out at the college?"],
+                "responses":["To nourish students’ positive life values and attitudes. To develop students’ leadership skills and organizational skills.To explore and develop students’ potential and talents to the fullest. To raise students’ sense of belonging to school through extra-curricular activities. For more information, visit https://www.mmcoe.edu.in/index.php/students-corner/extra-curricular-events"],
+                "context_set":""
+            },
+
+            {
+                "tag":"sports-name",
+                "patterns":["What sports are conducted at the college?","What physical activities are encouraged at the institution","Indoor-Outdoor activities carried out the college?","Sport facilities available"],
+                "responses":["The college has its own Cricket, Football, Volleyball, Football,Basketball Kabaddi ground, it also has modern style well equipped Gymnasium. Table Tennis, Yoga,Carrom and Chess facilities are also provided."],
+                "context_set":""
+            },
+
+            {
+                "tag":"sport-level",
+                "patterns":["What are the achievements of the college in the sports field?","What levels are deemed open to the students for participation?","What awards did the college win for the sports mentioned above?"],
+                "responses":["Our students have participated and won number of prizes in various International, National all india Inter-University, West Zone Inter-University, State,Inter-Zonal,Inter-Collegiate,Sports Competitions.MMCOE Pune has successfully organized Savitribai Phule ,Pune University Inter-Zonal Table Tennis tournaments in the Academic Year 2017-18, 2018-19 and 2019-20. MMCOE also organized Pune City Zone Intercollegiate Table Tennis (Men and Women),Chess (Men and Women), Mallakhamb (Men), Rope Mallakhamb (Women), Artistic Gymnastics (Men and Women) and Rhythmic Gymnastics (Women) competitions. In the second semester, Inter-Departmental Annual Sports events (ENSEMBLE Sports Competitions)are organized in the field of Cricket, Football, Volleyball, Throwball,Dodgeball,Basketball,Tug of War,Kabaddi,Table Tennis ,Chess,Carrom etc. There is active participation by all the students from different departments."],
+                "context_set":""
+            },
+
+            {
+                "tag":"sports-conducted",
+                "patterns":["What competitions have been conducted in the past academic years?","What are the details of the different competitions held by or at the college?","What previous events were participated in and won by the students pf this college","Events conducted in academic years"],
+                "responses":["Visit https://www.mmcoe.edu.in/index.php/students-corner/extra-curricular-events/sports for more details and information."],
+                "context_set":""
+            },
+
+            {
+                "tag":"fitness-protocol-guidelines",
+                "patterns":["What are the fitness protocol guidelines for 5-18 years?","What are the fitness protocol guidelines for 18-65 years?","What are the fitness protocol guidelines for 65+ years age?"],
+                "responses":["Visit https://www.mmcoe.edu.in/index.php/students-corner/extra-curricular-events/sports for more details and information."],
+                "context_set":""
+            },
+
+            {
+                "tag":"nss-activities",
+                "patterns":["What activities did NSS indulge into?","In what events was the active participation of NSS candidates witnessed?","What events were carried out in the academic year?","What extension activites were a part of the NSS curiculum in the academic year?"],
+                "responses":["Visit https://www.mmcoe.edu.in/index.php/students-corner/extra-curricular-events/nss-extension-activities for more details and information."],
+                "context_set":""
+            },
+
+            {
+                "tag":"nss-detail",
+                "patterns":["What is NSS?","What are the activities at NSS?","Events at NSS","Activities at NSS"],
+                "responses":["NSS actively participated in youth welfare tasks and events that maintain a social cause at heart. The main events carried out are blood donation camps,police mitra, tree plantations, ganesh festivals, sapling distribution, grocery donation, job fairs, e-waste collection, treks, winter camps, etc."],
+                "context_set":""
+            },
+
+            {
+                "tag":"ensemble",
+                "patterns":["What is ensemble?","What is the main event of the college?","How does the college organise a student talent-based event?","What is the cultural event of MMCOE?"],
+                "responses":["Ensemble starts with “Sports week” managed by Sports Director. Students and staff participates and enjoys the various indoor and outdoor sports games like Caroms, Chess, Cricket, Dodge Ball, Volleyball etc. Under the cultural activity “Gavaksh - Ek Zaroka” a program for ladies staff and “Unmesh – Udhalan Kaifachi”a program for gents staff is organized. Students participates in various extracurricular activities like Department Decoration, Rangoli, Mehandi, Art and Craft etc along with celebration of various days like Rose Day, Chocolate Day, Signature Day, Angels & Devils day, and traditional day. They showcase their skill and talent in coordinating and managing the various events. Fun fair is organized as a part of Ensemble. Evening is full of variety entertainment programs including classical &western dance performances, singing &mimicry, fashion show, Dhol Pathak and DJ."],
+                "context_set":""
+            },
+
+            {
+                "tag":"activities-ensemble",
+                "patterns":["What activities are carried out at ensemble?","What events are a part of the cultural event?","Different scopes for participation at Ensemble"],
+                "responses":["Students and staff participates and enjoys the various indoor and outdoor sports games like Caroms, Chess, Cricket, Dodge Ball, Volleyball etc. Students participates in various extracurricular activities like Department Decoration, Rangoli, Mehandi, Art and Craft etc along with celebration of various days like Rose Day, Chocolate Day, Signature Day, Angels & Devils day, and traditional day. They showcase their skill and talent in coordinating and managing the various events. Fun fair is organized as a part of Ensemble. Evening is full of variety entertainment programs including classical &western dance performances, singing &mimicry, fashion show, Dhol Pathak and DJ."],
+                "context_set":""
+            },
+
+            {
+                "tag":"cultural-activities",
+                "patterns":["Cultural activities conducted at college","What cultural events are organised?"],
+                "responses":["Visit https://www.mmcoe.edu.in/index.php/students-corner/extra-curricular-events/cultural-activities for more details and information."],
+                "context_set":""
+            },
+
+            {
+                "tag":"objectives-extra-curricular",
+                "patterns":["What are the objectives of extra-curricular activities?","Why are extra-curricular activities conducted?","What is the goal of extra-curricular activities?"],
+                "responses":["The objectives of extra-curricular activities are: To encourage students to participate in extra-curricular activities actively. To strengthen students' logical thinking skill. To increase students' other learning experiences and to maintain students' physical and mental health. To enhance the development of house activities."],
+                "context_set":""
+            },
+
+            {
+                "tag":"events-extra-curricular",
+                "patterns":["What are extra-curricular activities?","What are the activities conducted at MMCOE?","Extra curricular events at MMCOE","Extra-curricular Activities at MMCOE"],
+                "responses":["Visit https://www.mmcoe.edu.in/index.php/students-corner/extra-curricular-events for more details and information."],
+                "context_set":""
+            },
+
+            {
+                "tag":"gallery",
+                "patterns":["Images of the events","Gallery of activities","Pictures of competitions organized","Image Gallery of events at the college"],
+                "responses":["Visit https://www.mmcoe.edu.in/index.php/students-corner/gallery for more details, information and images."],
+                "context_set":""
+            },
+
+            {
+                "tag":"students-eligibility-no",
+                "patterns":["Student's eligibility number","How to find the student eligibility number?","What is my student eligibility number?"],
+                "responses":["Visit https://www.mmcoe.edu.in/index.php/students-corner/eligibility-numbers to find out your eligibility numbers for registered students."],
+                "context_set":""
+            },
+
+            {
+                "tag":"students-cprn-no",
+                "patterns":["Student's cprn number","How to find the student cprn number?","What is my student cprn number?"],
+                "responses":["Visit https://www.mmcoe.edu.in/images/Students_CPRN_List_MMCOE.pdf to find out your student cprn numbers for registered students."],
+                "context_set":""
+            },
+            {
+                "tag":"code-of-conduct",
+                "patterns":["What is the code of conduct?","What are the rules and regulations of the college?","Rules and Regulations","Codeof Conduct","Expected behaviour from students","Terms for Students to abide"],
+                "responses":["Visit https://www.mmcoe.edu.in/images/Code_of_Conduct_for_Studetns.pdf for the detailed set pf rules and regulations for the student's code of conduct."],
+                "context_set":""
+            },
+
+            {
+                "tag":"application-format-rules",
+                "patterns":["What are the instructions before we fill any application?","Are there any changes in the application patternss in the pandemic situations?","What steps should we keep in mind while filling an application?","What is the procedure to fill an application?"],
+                "responses":["The students willing to get documents are informed to follow following process considering current pandemic situation: Download application form as per your requirement. Fill all the details in application form & sign it. Mail the scan copy of application form and enclosed documents as mentioned in application to student-section@mmcoe.edu.in through your mmcoe login id. You will get the mail of same within 3 to 4 working days."],
+                "context_set":""
+            },
+
+            {
+                "tag":"application-for-bonafide-certificate",
+                "patterns":["How do we apply for a bonafide certificate?","What is the application format to gain a bonafide certificate"],
+                "responses":["Visit https://drive.google.com/file/d/1tlVnujPq_uVbFUkOg28gaQF8CqmCewxQ/view to get the exact application format for bonafide certificate."],
+                "context_set":""
+            },
+
+            {
+                "tag":"application-for-cgpato%",
+                "patterns":["How do we apply for a CGPA to %tile certificate?","What is the application format to gain a CGPA to %tile certificate?"],
+                "responses":["Visit https://drive.google.com/file/d/1MEYcBct-Di7SXnxZE4IwtvVKefEAUI0y/view to get the exact application format for a CGPA to %tile certificate. "],
+                "context_set":""
+            },
+
+            {
+                "tag":"application-for-castevaliditycertificate",
+                "patterns":["How do we apply for a caste validity certificate?","What is the application format to gain a caste validity certificate?"],
+                "responses":["Visit https://drive.google.com/file/d/1IKpD6AJKTDYMCDRHqaIxF08H-6ClkMkL/view to get the exact application format for the caste validity certificate. "],
+                "context_set":""
+            },
+
+            {
+                "tag":"application-for-feestructurebonafide",
+                "patterns":["How do we apply for a fee structure and bonafide certificate?","What is the application format to gain a fee structure and bonafide certificate?"],
+                "responses":["Visit https://drive.google.com/file/d/1UdAd8K6-0SjCeH3YD9h8EV5No1vtpuIC/view to get the exact application format for the fee structure and bonafide certificate. "],
+                "context_set":""
+            },
+
+            {
+                "tag":"application-for-transcriptcertificate",
+                "patterns":["How do we apply for a transcript certificate?","What is the application format to gain a transcript certificate?"],
+                "responses":["Visit https://drive.google.com/file/d/13M5GyG6hIcX2za0FaTqavZCiM4Y7EhGo/view to get the exact application format for the transcript certificate."],
+                "context_set":""
+            },
+
+            {
+                "tag":"application-for-migrationlc",
+                "patterns":["How do we apply for a migration and leaving certificate?","What is the application format to gain a migration LC?"],
+                "responses":["Visit https://drive.google.com/file/d/1t4NKVKRx3SWGnLcZH97Lt0I2DSOWfjoo/view to get the exact application format for the MIgration and Leaving Certificate(LC)."],
+                "context_set":""
+            },
+
+            {
+                "tag":"application-for-character&conduction",
+                "patterns":["How do we apply for a character and conduct certificate?","What is the application format to gain a character and conduct certificate?"],
+                "responses":["Visit https://drive.google.com/file/d/1tyOJmEmt73vrFT2IimYbU6VU5A4VcMGI/view to get the exact application format for the character and conduct certificate."],
+                "context_set":""
+            },
+
+            {
+                "tag":"notice-from-office",
+                "patterns":["News and Updates from the Office","New Guidelines from the Office","Regulations and Instructions from the Office","Reports from the Dean OFfice","Updates of the ongoing proceedings."],
+                "responses":["Visit https://www.mmcoe.edu.in/index.php/students-corner/important-notices-from-office to get insight upon the ongoing updates, news and updated guidelines of the schedules."],
+                "context_set":""
+            },
+
+            {
+                "tag":"ieee-student-branch",
+                "patterns":["What is IEEE?","What events are organised by IEEE?","What is the functionality of IEEE?","HWat does IEEE do?","IEEE events","When did IEEE college branch start and what does it do?"],
+                "responses":["Marathwada Mitra Mandal's College of Engineering inaugurated IEEE Student Branch on 23rd May 2020. It organizes various events such as Webinar, Workshops, FDPs, Project Competitions, etc. Students from various colleges enthusiastically participate in events. For more details visit https://www.mmcoe.edu.in/index.php/students-corner/co-curricular-events/ieee-student-branch formore IEEE related facts/information."],
+                "context_set":""
+            },
+
+            {
+                "tag":"dexterity",
+                "patterns":["What academic events are organised by the college?","What is Dexterity?", "What does Dexterity place a role of?","What kind of competitions are organised via Dexterity?"],
+                "responses":["Marathwada Mitra Mandal's College of Engineering organizes a National Level Technical event DEXTERITY every year. All departments organize various events such as Tech Hunters, Scavengers, CAD war, Poster presentation, Code Marshal, Tech Spark, Tech Shilpam, Mech Mind, Circuit Mania etc. Students from various colleges enthusiastically participate in events."],
+                "context_set":""
+            },
+
+            {
+                "tag":"students-publication-computer",
+                "patterns":["What were the student publications of Computer department?","Computer Students Publications","Computer Department Students Litrary Works"],
+                "responses":["Visit https://www.mmcoe.edu.in/index.php/students-corner/co-curricular-events/student-publication for the literary publications of Students from the Computer department."],
+                "context_set":""
+            },
+
+
+            {
+                "tag":"students-publication-mechanical",
+                "patterns":["What were the student publications of Mechanical department?","Mechanical Engineering Students Publication","Mechanical Department Students Litrary Works"],
+                "responses":["Visit https://www.mmcoe.edu.in/index.php/students-corner/co-curricular-events/student-publication for the literary publications of Students from the Mechanical department."],
+                "context_set":""
+            },
+
+            {
+                "tag":"students-publication-IT",
+                "patterns":["What were the student publications of Information Technology department?","IT Students Publication","Information Technology Department Students Litrary Works"],
+                "responses":["Visit https://www.mmcoe.edu.in/index.php/students-corner/co-curricular-events/student-publication for the literary publications of Students from the IT department."],
+                "context_set":""
+            },
+
+            {
+                "tag":"students-publication-Electrical",
+                "patterns":["What were the student publications of Electrical department?","Electrical Engineering Students Publication","Electrical Department Students Litrary Works"],
+                "responses":["Visit https://www.mmcoe.edu.in/index.php/students-corner/co-curricular-events/student-publication for the literary publications of Students from the Electrical department."],
+                "context_set":""
+            },
+
+            {
+                "tag":"students-publication-E&TC",
+                "patterns":["What were the student publications of Electronics & Telecommunication department?","E&TC Engineering Students Publication","Electronics and Telecommunication Department Students Litrary Works"],
+                "responses":["Visit https://www.mmcoe.edu.in/index.php/students-corner/co-curricular-events/student-publication for the literary publications of Students from the Electronics and Telecommunication department."],
+                "context_set":""
+            },
+
+            {
+                "tag":"student-club",
+                "patterns":["What Clubs are supported by the college?","What are the clubs of MMCOE?","Which clubs are facilitated for the students?"],
+                "responses":["MMCOE has multiple funded and supported clubs that represent the college like SAE, Robocon, Zenith, and Alerios Aeroclub. These clubs represent the college in events carried out throughout India and bring name to the college."],
+                "context_set":""
+            },
+
+            {
+                "tag":"SAE",
+                "patterns":["What is SAE?","What does SAE do?","What competitions does SAE club participate in?","What is the SAE club all about?","What field does the club college work for?"],
+                "responses":["SAE Stands for the Society of Automotive Engineers and SAE India is an alliance partner of SAE international registered in India. It is a non-profit engineering and scientific society which was established in Chennai in the year 2002. It was dedicated solely for the advancement of the mobility industry in India. In our MMCOE, Karvenagar, Pune, the SAEINDIA MMCOE Collegiate Club was established in the Year 2013. SAE India organizes many nationwide events such as Baja, Supra, Efficycle and others. Our institute participates in the events BAJA, Supra and Efficycle every year and emerged as leading institute in these events at National and International level."],
+                "context_set":""
+            },
+
+            {
+                "tag":"Robocon",
+                "patterns":["What is Robocon?","What does SAE do?","What competitions does Robocon club participate in?","What is the Robocon club all about?","What field does the club college work for?"],
+                "responses":["Robocon (short for Robotic Contest) is organised by Asia-Pacific Broadcasting Union (ABU), a collection of over 20 countries of Asia Pacific Region. NHK, Japan had already been organising such contests at national level and also became the host of the first ABU Robocon in 2002. Since then, every year one of the member broadcasters hosts this international event. The broadcasters of each participant country are responsible for conduct of their national contests to select the team which will represent their country in the International Contest. Teams from Engineering and Technological colleges are eligible for participation. Participating Teams are expected to design and fabricate their own robots and organize their teams including an Instructor, Team Leader, Manual Robot Operator and an Automatic Robot Operator."],
+                "context_set":""
+            },
+
+            {
+                "tag":"Zenith",
+                "patterns":["What is Zenith?","What does Zenith do?","What competitions does Zenith club participate in?","What is the Zenith club all about?","What field does the club college work for?"],
+                "responses":["The applications of scientific and technological developments in astronomy has led to many applications especially in electronics and telecommunication, computers, aerospace, energy sector, medicine and related areas. It also makes us aware about where exactly do we fit in the entire universe. The Astronomy Club of MMCOE named ‘Zenith’ was formally inaugurated in the year 2018-19 to discuss about few of these applications. The club has organized stargazing programmes in association with Jyotirvidya Parisanstha, Pune It also undertakes various events for making the society aware about the recent developments in astronomy."],
+                "context_set":""
+            },
+
+            {
+                "tag":"Alerios",
+                "patterns":["What is Alerios Aeroclub?","What does Alerios Aeroclub do?","What competitions does Alerios Aeroclub participate in?","What is the Alerios Aeroclub all about?","What field does the club college work for?"],
+                "responses":["The club will focus on the various aspects of Aviation to inculcate hand-skills and experience based learning among youth. It will particularly focus on the indoor Aeromodelling which can accommodate most members of the society from all financial factions and also develops deep sense of Aerodynamics."],
+                "context_set":""
+            },
+
+            {"tag": "Campus",
+             "patterns": ["What about the Campus?", "Information about Campus", "Tell me something about the Campus", "Campus Information", "Campus Details", "Campus"],
+             "responses": ["For more information about the campus please visit 'https://https://www.mmcoe.edu.in/index.php/campus'","You can find more information about the campus at 'https://www.mmcoe.edu.in/index.php/campus'"],
+             "context_set":""
+            },
+            {"tag": "Campus-Library",
+             "patterns": ["Information about the Library", "Tell me something about the library", "What about the library?", "What can you tell me about the library?", "Library information", "Library details", "Library"],
+             "responses": ["For Salient Features of the MMCOE central library, please visit 'https://www.mmcoe.edu.in/index.php/campus/library'", "You can find detailed information about the library at 'https://www.mmcoe.edu.in/index.php/campus/library'"],
+             "context_set":""
+            },
+            {"tag": "Campus-Laboratories",
+             "patterns": ["Information about the labs", "What about the laboratories", "Information about laboratories", "Department Laboratories", "laboratories", "labs"],
+             "responses": ["The institution boasts a whopping number of 67 different laboratories for different departments, engaged in a variety of different projects simultaneously. For more information about the labs please visit 'https://www.mmcoe.edu.in/index.php/campus/laboratories'","We have 67 laboratories in the campus according to the departments, For more information about the labs please visit 'https://www.mmcoe.edu.in/index.php/campus/laboratories'"],
+             "context_set":""
+            },
+            {"tag": "Campus-Classrooms",
+             "patterns": ["Information about the classrooms", "Tell me something about the classrooms", "What about the classrooms", "Classrooms", "classroom"],
+             "responses": ["All classrooms are equipped with modern furniture, LCD projectors with white screen, greenboard, white board and internet."],
+             "context_set":""
+            },
+            {"tag": "Campus-Hostels",
+             "patterns": ["Hostel facilities", "What about the hostel", "Tell me something about the hostel", "hostel", "Tell me about the hostel", "Does the college have hostel facilities"],
+             "responses": ["The institution provides excellent hostel facilities with various amenities, the full information about the hostel can be found in the hostel brochure here - 'https://www.mmcoe.edu.in/images/Hostel_Brochure.pdf', For more information please visit - 'https://www.mmcoe.edu.in/index.php/campus/hostel'"],
+             "context_set":""
+            },
+            {"tag": "Campus-Playground",
+             "patterns": ["What about the playground", "Does the college have a playground", "ground", "playground", "Tell me something about the playground"],
+             "responses": ["The institute has a big playground for various sports and activites situated at the back of the campus, you can find pictures here - 'https://www.mmcoe.edu.in/images/play-ground.jpg', For more information please visit - 'https://www.mmcoe.edu.in/index.php/campus/playgrounds'"],
+             "context_set":""
+
+            },
+            {"tag": "Campus-Gymnasium",
+             "patterns": ["Does the College have a gym", "Tell me something about the gym", "gym", "gymnasium", "What about the gym"],
+             "responses": ["The college has excellent gym facilities with a large amount of training equipment, 'For more information please visit - 'https://www.mmcoe.edu.in/index.php/campus/gymnasium'", "The institute boasts a fully equipped gym with a variety of different equipments for training. 'For more information please visit - 'https://www.mmcoe.edu.in/index.php/campus/gymnasium'"],
+             "context_set":""
+
+            },
+            {"tag": "Campus-Canteen",
+             "patterns": ["Tell me something about the canteen", "Tell me something about the mess facilities", "mess", "canteen", "What about canteen?", "What about Mess?", "Does the College have a canteen?", "Does the College have a Mess?"],
+             "responses":["The institution has a spacious canteen which provides delicious and healthy food at cheap rates for the students, and also has a completely separate mess facility for the hostel candidates, For more information please visit - 'https://www.mmcoe.edu.in/index.php/campus/mess'", "The college offers students with excellent and healthy food in the canteen at low rates and also a separate mess facility is available for students, For more information please visit - 'https://www.mmcoe.edu.in/index.php/campus/mess'"],
+             "context_set":""
+
+            },
+            {"tag": "Campus-Maintenance",
+             "patterns": ["What about maintenance?", "Tell me something about maintenance", "Housekeeping", "Maintenance", "What about Housekeeping?", "Does the college provide Housekeeping?"],
+             "responses": ["For more about the maintenance, housekeeping and write-off policy, please visit - 'https://www.mmcoe.edu.in/index.php/campus/maintenance-housekeeping-and-write-off-policy'"],
+             "context_set":""
+            },
+
+            {"tag": "Campus-Feedback",
+             "patterns": ["Where to give feedback?", "Feedback portal", "Feedback", "How to give Feedback"],
+             "responses": ["For feedback portal, please visit - 'https://www.aicte-india.org/feedback/'"],
+             "context_set":""
+            },
+
+            {"tag": "Campus-Video",
+             "patterns": ["Campus video", "Campus information video", "Infrastructure Video"],
+             "responses": ["PLease visit 'https://youtu.be/DaTjunT4Mjc' for a campus video"],
+             "context_set":""
+
+            },
+
+            {
+                  "tag":"default-fallback",
+                  "patterns":[],
+                  "responses":["I didn't get that. Can you say it again?","I missed what you said. What was that?","Sorry, could you say that again?","Can you say that again?","I didn't get that. Can you repeat?","I  missed that, say that again?"]
+            }
+
+
+]
+}
