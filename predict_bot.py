@@ -12,7 +12,7 @@ classes = pickle.load(open('classes.pkl', 'rb'))
 lemmatizer = WordNetLemmatizer()
 model = load_model('chatbot_model.h5')
 
-sentence = "Which website should i refer for admission process?"
+sentence = " "  #using an arbitrary variable as an example and for further usage in functions
 
 
 def clean_up_sentence(sentence):
@@ -70,7 +70,7 @@ def chatbot_response(msg):
     return res
 
 
-bot_name = "MMCOE"
+bot_name = ""           #add any random bot name here
 import tkinter as tk
 
 
@@ -80,7 +80,7 @@ class Chat:
         self._setup_window()
 
     def _setup_window(self):
-        self.window.title("MMCOE Chat Bot")
+        self.window.title("enquiry_bot")
         self.window.resizable(width=False, height=False)
         _width, _height = 400, 550
         self.window.configure(width=_width, height=_height, bg='grey')
@@ -88,9 +88,9 @@ class Chat:
         # Center the window
         screen_width = self.window.winfo_screenwidth()
         screen_height = self.window.winfo_screenheight()
-        # For left-alling
+        # For left-align
         left = (screen_width / 2) - (_width / 2)
-        # For right-allign
+        # For right-align
         top = (screen_height / 2) - (_height / 2)
         # For top and bottom
         self.window.geometry('%dx%d+%d+%d' % (_width, _height,
@@ -122,7 +122,7 @@ class Chat:
         self.message_entry = tk.Entry(bottom_label, bg='white', font='12')
         self.message_entry.place(relwidth=0.75, relheight=0.05, rely=0.012,
                                  relx=0.011)
-        self.message_entry.focus()  # focus entry widget when app launched
+        self.message_entry.focus()  #focus app window post launch
         self.message_entry.bind("<Return>", self._on_return_pressed)
 
         send_button = tk.Button(bottom_label, text='Send', width=20,
@@ -161,5 +161,4 @@ if __name__ == '__main__':
     chat = Chat()
     chat.run()
 
-# user=input("Enter your Query!")
-# print("BOT:"+chatbot_response(user))
+
